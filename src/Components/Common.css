@@ -1,0 +1,28 @@
+.main{
+    background-color:chocolate;
+    padding: 40px;
+}
+.sub{
+    background-color: rgb(196, 248, 9);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50px 10px 50px 10px;
+}
+.content-galery-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 130px;
+    /* border-top: 5px solid red; */
+    box-shadow: 10px 10px 10px black;
+}
+.content-gallery-name{
+      height: 288px;
+      text-align: center;
+}
+.content-gallery-name h2{
+   font-weight: 700;
+   margin-top: 80px;
+   font-size: 50px;
+   text-shadow: 5px 5px 10px black;
+}
