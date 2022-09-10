@@ -26,3 +26,28 @@
    font-size: 50px;
    text-shadow: 5px 5px 10px black;
 }
+
+/* Calcular Css */
+
+
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px auto);
+}
+input [type="text"]{
+    height: 75px;
+    width: 249px;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    width: 256px;
+    text-align: center;
+    border: 10px solid #101116;
+    background-color: #101116;
+    border-radius: 5px;
+}
